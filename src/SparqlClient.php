@@ -5,6 +5,7 @@ use CCR\Sparql\Exception\InvalidUriException;
 use GuzzleHttp\ClientInterface;
 
 /**
+ * coucou ca va?
  * A client for connecting to and querying a SPARQL endpoint.
  */
 
@@ -35,6 +36,7 @@ class SparqlClient
     } // __construct()
 
     /**
+     *change by ali
      * Sets the endpoint for connecting to the SPARQL server. A client can only
      * connect to one endpoint at a time; any subsequent calls to this method
      * will replace the existing endpoint.
